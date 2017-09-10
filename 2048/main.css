@@ -1,0 +1,67 @@
+
+@media screen  and (max-width:600px){
+    body{font-size:20px;}
+
+}
+
+@media screen and (min-width:600px) and (max-width:700px){
+    body{font-size:30px;}
+}
+
+
+@media screen and (min-width:700px) and (max-width:960px){
+    body{font-size:40px;}
+}
+
+@media screen and (min-width:960px) {
+    body{font-size:50px;}
+}
+
+* {
+    padding: 0;
+}
+body{
+
+    text-align: center;
+    /*font-size: 30px;*/
+
+}
+
+
+
+.wraper {
+    position: relative;
+    top:100px;
+    width: calc( 8em + 40px);
+    word-spacing: -.25em;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #BBADA0;
+    overflow: hidden;
+}
+
+.wraper .cell{
+    /*display: inline-block;*/  /*inline-block盒子之间有间隙，而且间隙是不确定的*/
+    float: left;
+    width: 2em;
+    height:2em;
+    margin: 5px;
+    border-radius: 2px;
+    vertical-align: top;
+    background-color: #CDC1B4;
+    font-weight: bold;
+    line-height: 2em;
+    color: #776E65;
+
+
+}
+
+#start{
+    position: relative;
+
+    top: 120px;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+}
