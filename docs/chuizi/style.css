@@ -1,0 +1,500 @@
+body,ul,li,a,input,div,span,img{
+	margin: 0;
+	padding:0;
+}
+
+ul li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+body{
+	background: #ededed;
+	font-family: "微软雅黑"
+}
+
+.head{
+	height:97px;
+	font-size: 14px;
+	background-color: #000;
+	width: 100%;
+}
+
+.headmain{
+	width:1120px;
+	margin: 0 auto;
+	height: 100px;
+	line-height: 100px;
+}	
+
+.headlogo{
+	display:inline-block;
+	background: url(../image/logo.png) no-repeat;
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 30px 150px 20px 0;
+	cursor: pointer;
+}
+.headmainOli{
+	float: left;
+}
+
+.headmainOli li{
+	float: left;
+}
+
+.headmainOli li a{
+	display: block;
+	color: #ccc;
+	text-decoration: none;
+	margin:0 20px;
+}
+
+.headmainOli li a:hover{
+	color: #fff;
+}
+
+.headOn{
+	border: 1px solid #242424;
+	border-radius: 5px;
+	padding:5px 20px;
+	color:#ccc;
+
+}
+
+.headOn:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+.headLine{
+	color:#242424;
+	margin:0 40px;
+	
+}
+
+.nav{
+	width:1120px;
+	margin:0 auto;
+}
+.nav ul{
+	margin:30px 0;
+}
+.nav ul li{
+	float: left;
+	margin:0px 21px;
+	color: #e8e8e8;
+}
+.nav ul li a{
+	color: #666;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+.nav ul li a:hover{
+	color:#6B95EA;
+}
+
+.shop{
+	float: right;
+	color:#666;
+	height: 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.shop img{
+	height:20px;
+	width: 20px;
+	line-height: 20px;
+	opacity: .5;
+	float: left;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+.shop p{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+}
+
+#shopNum{
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	background: #999;
+	border-radius:50%;
+	color:#fff;
+	font-size: 8px;
+	float: left;
+	text-align: center;
+	margin:0 10px;
+}
+
+.main{
+	width:1120px;
+	height: 560px;
+	background-color:#fff; 
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+	margin-top:90px;
+	border-radius: 10px;
+	border:1px solid #e8e8e8;
+	box-shadow: 5px 5px 10px #e8e8e8;
+}
+
+.mainL{
+	width:604px;
+	height: 560px;
+	overflow: hidden;
+}
+
+.mainLS{
+	float: left;
+	margin:150px 0 0 60px;
+}
+
+.mainLB{
+	float: left;
+	margin-top: 50px;
+}
+
+.mainlist li{
+	margin-bottom: 10px;
+	cursor: pointer;
+	border:1px solid #F0F0F0;
+	padding: 10px;
+	border-radius: 5px;
+}
+.mainlist .border-on{
+	border:2px solid #ccc;
+}
+
+.mainLB ul{
+	width:460px;
+	height:460px;
+}
+
+.mainLB ul li img{
+	max-width:100%;
+	height:auto;
+}
+
+.mainR{
+	width:450px;
+	float: right;
+	position: relative;
+	top:-550px;
+	right:50px;
+
+}
+.mainRt{
+	padding-top: 100px;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.mainRt h4{
+	font-size: 20px;
+}
+
+.mainR-text{
+	color:#ccc;
+	font-size: 14px;
+	height:30px;
+}
+
+.mainR span{
+	font-size: 22px;
+	color: #DE4037;
+	margin-left: 150px;
+	font-weight:bold;
+}
+
+.mainRcolor{
+	margin-top:20px; 
+	border-bottom: 1px solid #F0F0F0;
+	padding-bottom: 20px;
+}
+.RcolorP{
+	float: left;
+	margin-right: 10px;
+	color:#333;
+}
+.Rcolor-list li{
+	float: left;
+	height: 31px;
+	width:31px;
+	border-radius: 50%;
+	margin-left: 5px;
+	position: relative;
+	margin-bottom: 20px;
+	border: 2px solid #F0F0F0;
+}
+
+.Rcolor-list .border-on {
+	border: 2px solid #999;
+}
+.mainRcolor li a{
+	display: block;
+	height: 23px;
+	width:23px;
+	border-radius: 50%;
+	border:1px solid #e8e8e8;
+	position: absolute;
+	margin:2px;
+}
+
+.colorR1{
+	background-color: #97EFF0;
+}
+
+.colorR2{
+	background-color: #E0F08E;
+}
+
+.colorR3{
+	background-color: #F7CB24;
+}
+
+.colorR4{
+	background-color: #F9BA77;
+}
+
+.colorR5{
+	background-color: #955AB8;
+}
+
+.colorR6{
+	background-color: #F66F76;
+}
+
+.colorR7{
+	background-color: #96B4F0;
+}
+
+.RcolorBtn{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	line-height: 10px;
+	box-shadow: 3px 5px 3px #ccc;
+	background-color: #fff;
+	border:1px solid #F0F0F0;
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+	outline: none;
+}
+
+.RcolorBtn-on{
+	background-color: #F0F0F0;
+}
+
+.mainRcolor .mainNum{
+	margin:20px;
+	color: #333;
+	font-size: 14px;
+}
+
+.rBtn{
+	margin-top:20px; 
+}
+
+.rBtn a{
+	width:145px;
+	height:50px;
+	line-height: 50px;
+	display: inline-block;
+	border-radius: 7px;
+	font-size: 16px;
+	outline: none;
+	cursor: pointer;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.rBtn a:hover{
+	opacity: 1;
+	box-shadow: 5px 5px 10px #ccc;
+}
+#rBtn-shopcar{
+	color:#fff;
+	background-color: #5c81e3;
+	border:none;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#rBtn-buy{
+	color:#999;
+	background-color: #fff;
+	border:1px solid #F0F0F0;
+	text-decoration: none;
+}
+
+.rBtn p{
+	color:#999;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.picshow{
+	clear: both;
+	margin:20px auto;
+	width:1120px;
+	border:1px solid #e8e8e8;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #e8e8e8;
+}
+
+.picshow img{
+	width:1118px;
+	margin-bottom:-0px;
+}
+
+.picshow h3{
+	color:#000;
+	background-color: #FAFAFA;
+	border:1px solid #e8e8e8;
+	padding:20px 20px;
+	border-radius: 10px 10px 0 0 ;
+	margin-bottom:0;
+	margin-top: 0;
+
+}
+
+.picshow3{
+	border-radius: 0 0 10px 10px ;
+}
+
+.foot{
+	width: 100%;
+	height: 330px;
+	background-color: #fff;
+	margin-top: 30px;
+}
+
+.footList{
+	width:1120px;
+	margin: 0 auto;
+	padding:50px 0 130px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.footListF{
+	float: left;
+	margin-right:100px;
+	font-size: 18px;
+	color:#000;
+	margin-bottom: 100px;
+}
+
+.footListF ul{
+	padding-top:15px;
+}
+
+.footListF ul li{
+	margin:5px;
+}
+.footListF ul li a{
+	font-size: 14px;
+	color:#666;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.footListF ul li a:hover{
+	color:#6B95EA;
+}
+.footTel{
+	width:250px;
+	height:120px;
+	float:right;
+}
+
+.footTelcon{
+	background-color: #98BBF0;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 16px;
+	float: right;
+	cursor: pointer;
+}
+.footTelcon span{
+	border-radius: 50%;
+	background-color: #fff;
+	color:#98BBF0;
+	margin-right: 5px;
+	padding:0 6px;
+}
+
+.footTel button{
+	border:none;
+	background: none;
+	outline: none;
+}
+
+.footTelPhone{
+	font-size:30px;
+	color:#333;clear: both;
+}
+
+.footTel p{
+	color: #666;
+}
+
+.footState{
+	clear: both;
+	width: 1120px;
+	margin:0 auto;
+	font-size: 12px;
+	position: relative;
+	top:-30px;
+}
+
+.footState span{
+	display: block;
+	margin-bottom: 5px;
+	color:#666;
+}
+
+.footState span a{
+	color:#98BBF0;
+	margin: 0 10px;
+
+}
+
+.footState a{
+	margin-right: 20px;
+	color: #666;
+	text-decoration: none;
+}
+.footState a:hover{
+	text-decoration: none;
+}
+
+.footState .lang{
+	position: relative;
+	left:600px;
+	top:-50px;
+}
+
+.langBtn{
+	width:60px;
+	height:30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.langLi li{
+	width:50px;
+	height:30px;
+	padding: 0;
+}
