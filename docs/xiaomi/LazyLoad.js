@@ -88,3 +88,5 @@
         container.bind("scroll", loading);
     };
 })(jQuery);
+
+$("img").scrollLoading();
