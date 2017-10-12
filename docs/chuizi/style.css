@@ -12,7 +12,7 @@ a{
 }
 body{
 	background: #ededed;
-	font-family: "å¾®è½¯é›…é»‘"
+	font-family: "Î¢ÈíÑÅºÚ"
 }
 
 .head{
@@ -498,3 +498,16 @@ body{
 	height:30px;
 	padding: 0;
 }
+
+
+#goTop {
+	position: fixed;
+	display: none;
+	margin-top: 100px;
+	margin-left: 98%;
+	width: 20px;
+	border:1px solid red;
+	border-radius: 2px;
+	text-align: center;
+}
+

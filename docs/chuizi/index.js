@@ -80,13 +80,13 @@ $(document).ready(function(){
         obtn=document.getElementById("goTop"),
         isTop=true,
         clientHeight=document.documentElement.clientHeight;//获取可视区域高度
-    window.onscroll=function(){
+ 	window.onscroll=function(){
         var osTop=document.documentElement.scrollTop||document.body.scrollTop;//获取当前距顶部的高度
         if(!isTop){
             clearInterval(timer);
         }
         isTop=false;
-        if(clientHeight<=osTop){
+        if(osTop !== 0){
             obtn.style.display="block"
         }else{
             obtn.style.display="none";
